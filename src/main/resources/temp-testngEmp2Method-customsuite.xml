@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="SeleniumTestNg">
+    <parameter name="state" value="goa"/>
+    <classes>
+      <class name="TestNgConcepts.Employee2">
+        <methods>
+          <include name="enterStateName"/>
+          <exclude name="enterCityName"/>
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- SeleniumTestNg -->
+</suite> <!-- Default Suite -->

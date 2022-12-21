@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="SeleniumTestNg">
+
+    <groups>
+      <run>
+        <exclude name="user1"/>
+        <include name="user2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNgConcepts.Employee2"/>
+    </classes>
+  </test> <!-- SeleniumTestNg -->
+</suite> <!-- Default Suite -->
